@@ -14,7 +14,7 @@ type Store = {
   longitude: string;
   phoneNumber: string;
   area: string;
-  averageRating: string;
+  averageRating: number;
 };
 
 type CityStateMap = {
